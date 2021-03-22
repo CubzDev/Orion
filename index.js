@@ -5,7 +5,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.defaultPrefix = '!';
-client.noPermission = "You do not have permission do execute this command!";
 client.adminPermission = "ADMNINISTRATOR";
 
 client.commands = new Discord.Collection();
